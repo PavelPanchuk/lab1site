@@ -1,110 +1,172 @@
 <!DOCTYPE html>
 <!--https://www.w3schools.com/html/html_basic.asp-->
 
-
-
 <html>
 
- <head>
+<head>
   <meta charset="utf-8">
   <title>Главная</title>
 
-
-
-
-
-<style>
-
-  * {
-    padding: 0;
-    margin: 0;
-  }
-  
-  @media (min-width: 500px) {
-    .container-1 {
-      display: flex;
-      align-items: stretch;
-      flex-direction: row;
-
-      
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
     }
-  }
-  
-
-  .container-2 {
-    outline: 2px solid #000;
-    display: flex;
     
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  
-  .container-1 div, .container-2 div {
-    padding: 10px;
-    border: 1px solid rgb(187, 56, 56); 
-    <!--color рамок-->
-  }
-  
-  .box-1 {
-    flex: 2;
-    order: 1;
-
-  }
-  
-  .box-2 {
-    flex: 2;
-    order: 12;
-    text-align: right;
-  }
-  
-  .box-3 {
-    flex: 1;
-    order: 3;
-    text-align: center;
-
-  }
-  
-  .box {
-    flex-basis: 20%;
+    @media (min-width: 500px) {
+      .container-1 {
+        display: flex;
+        align-items: stretch;
+        flex-direction: row;
+      }
+    }
     
-  }
+    .container-2 {
+      outline: 2px solid #000;
+      display: flex;
+      align-items: flex-start;
 
 
-  ul.hr {
-    text-align: center;
+    }
+    
+    .container-1 div,
+    .container-2 div {
+      padding: 10px;
+      border: 1px solid rgb(119, 112, 112);
+    }
+    
 
-  background-color: rgb(226, 220, 220); 
-     /* Обнуляем значение отступовS*/
-    padding: 4px; /* Зн
+
+
+    .box-1 {
+      flex: 2;
+      order: 1;
+    }
+    
+    .box-2 {
+      flex: 2;
+      order: 12;
+      text-align: right;
+    }
+    
+    .box-3 {
+      flex: 1;
+      order: 3;
+      text-align: center;
+    }
+    
+
+
+
+
+    .box11 {
+      align-self: stretch;
+font-size: 20px;
+    }
+
+
+    .box22 {
+      align-self: flex-start;
+min-width: 10vh;
+
+    }
+
+    .box33{
+      align-self: center;
+
+    }
+
+    .box44 {
+      align-self: flex-end;
+
+    }
+
+    .box55{
+      align-self: flex-end;
+
+    }
+
+    .box66 {
+      align-self: flex-end;
+
+    }
+
+
+
+
+    ul.hr {
+      text-align: center;
+      background-color: rgb(226, 220, 220);
+      /* Обнуляем значение отступовS*/
+      padding: 4px;
+      /* Зн
     
     ачение полей */
+    }
+    
+    ul.hr li {
+      display: inline;
+      /* Отображать как строчный элемент */
+      margin-right: 0px;
+      /* Отступ слева */
+      padding: 3px;
+      /* Поля вокруг текста */
+    }
+    
+    .lk {
+      display: inline;
+      /* Отображать как строчный элемент */
+      width: 300px;
+      /* Ширина блока */
+      background: white;
+      /* Цвет фона */
+      padding: 5px;
+      /* Поля вокруг текста */
+    }
+    
+    ull.lk {
+      margin: 0;
+      /* Обнуляем значение отступов */
+      padding: 4px;
+      /* Значение полей */
+    }
+    
+    ull.lk li {
+      display: inline;
+      /* Отображать как строчный элемент */
+      margin-right: 5px;
+      /* Отступ слева */
+      padding: 3px;
+      /* Поля вокруг текста */
+
+
+
+
+
+      u.hrr {
+    margin: 0%; /* Обнуляем значение отступов */
+    padding: 40%; /* Значение полей */
+
+
+
+
    }
-   ul.hr li {
-    display: inline; /* Отображать как строчный элемент */
-    margin-right: 0px; /* Отступ слева */
-    padding: 3px; /* Поля вокруг текста */
+   u.hrr lii {
+    margin-right: 509%; /* Отступ слева */
+    border: 1 solid #000; /* Рамка вокруг текста */
+    padding: 3%; /* Поля вокруг текста */
+   }
+
+   .hrrr {
+    margin: 0%; /* Обнуляем значение отступов */
+    padding: 40%; /* Значение полей */
+
+
+
+
    }
 
 
-   .lk { 
-		 
-     display: inline; /* Отображать как строчный элемент */
-
-       width: 300px; /* Ширина блока */
-       background: white; /* Цвет фона */
-       padding: 5px; /* Поля вокруг текста */
-      }
-      
-        ull.lk {
-       margin: 0; /* Обнуляем значение отступов */
-       padding: 4px; /* Значение полей */
-      }
-      ull.lk li {
-       display: inline; /* Отображать как строчный элемент */
-       margin-right: 5px; /* Отступ слева */
-       padding: 3px; /* Поля вокруг текста */
-      }
-      
 
 
 
@@ -116,7 +178,10 @@
 
 
 
-</style>
+
+
+    }
+  </style>
 </head>
 
 <body>
@@ -131,106 +196,107 @@
     <li><a href="#">Обратная связь</a></li>
     <li><a href="#">Правила дистанционной торговли</a></li>
   </ul>
- </body>
+</body>
 
+<div class="container-1">
 
+  <div class="box-1">
 
+    <img src="images\logo100x110.jpg" align="left" alt="log drel">
 
-  <div class="container-1">
-
-
-    <div class="box-1">
-    
-      <img src="images\logo100x110.jpg" 
-      align="left"
-      alt="log drel">
-
-      <p><b> <br>   Интернет-магазин <br> электроинструмента</br>
+    <p><b> <br>   Интернет-магазин <br> электроинструмента</br>
       </b></br>
-      
-      
 
-   
-    </div>
+  </div>
 
+  <div class="box-2">
 
-    <div class="box-2">
-   
-      <ull class="lk">
-       
-        <li><a href="#">Личный кабинет</a></li>
+    <ull class="lk">
+
+      <li><a href="#">Личный кабинет</a></li>
       |
-        <li><a href="#">Выход</a></li>
-        
+      <li><a href="#">Выход</a></li>
+
+      <br>Ваша корзина пуста</br>
+      <br>
+      <form action="" method="get">
+        <input name="s" placeholder="Искать здесь..." type="search">
+        <button type="submit">Поиск</button>
+      </form>
+      </br>
+    </ull>
+
+  </div>
+
+  <div class="box-3">
+    <h3>Барнаул</h3>
+    <p> +7(3999) 223-322
+      <p>Работаем 10-19, вых.воскр
+        <p>заказ на сайте круглосуточно</br>
+
+  </div>
+</div>
+
+
+
+<div class="container-2">
+
+
+
+
+  <div class="box11">
+    <h3>Каталог</h3>
+      <u class="hrr">
+        <br> <a href="#">Аккумуляторный интрумент</a></br>
+         <a href="#">Лазерные уровни, дальномеры</a>
+        <br><a href="#">Сетевые дрели, шуруповерты,миксеры</a></br>
+        <a href="#">Перфораторы и отбойные молотки</a>
+       
      
-
-     <br>Ваша корзина пуста</br>
-     <br>
-     <form action="" method="get">
-      <input name="s" placeholder="Искать здесь..." type="search">
-      <button type="submit">Поиск</button>
-    </form>
-    </br>
-      </ull>
-
-
-
-
-      </div>
-
-
-    <div class="box-3">
-      <h3>Барнаул</h3>
-      <p> +7(3999) 223-322
-        <p>Работаем 10-19, вых.воскр 
-          <p>заказ на сайте круглосуточно</br>
-   
-   
-   
-   
-
-
-
-
+       </u>
+    
     </div>
+
+
+
+  <div class="box22">
+    <a href="#">Главная</a> >>
+    Аккумуляторные дрели и шуруповерты
+<p>  <b>  Аккумуляторные дрели и шуруповерты
+</b>
+</p>
+
   </div>
   
+  <div class="box33">
+    <h3>Box 3</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+  </div>
 
+  <div class="box44">
+    <h3>Box 4</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+  </div>
 
-
-
-
-
-  <div class="container-2">
-    <div class="box">
-      <h3>Box 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-    </div>
-    <div class="box">
-      <h3>Box 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-    </div>
-    <div class="box">
-      <h3>Box 3</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-    </div>
-    <div class="box">
-      <h3>Box 4</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-    </div>
-    <div class="box">
-      <h3>Box 5</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-    </div>
-    <div class="box">
-      <h3>Box 6</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-    </div>
+  <div class="box55">
+    <h3>Box 5</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
   </div>
 
 
 
 
+  <div class="box66">
+    
+  
+     Cтраницы  
+     <ul class="hr">
+      <li><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">Все</a></li>
+    </ul>
 
 
 
@@ -245,6 +311,7 @@
 
 
 
+    </div>
 
 
 
@@ -255,8 +322,15 @@
 
 
 
+</div>
+<br>
+<img style="padding: 10px;" src="images\visa_logo_40x13.png" align="left" alt="logovisa">
+  
+<img style="padding: 5px;" src="images\mastercard_logo_40x24.png" align="left" alt="log master">
 
 
+</br>
+</div>
 
 
 
@@ -448,16 +522,4 @@ display: flex;
  
 -->
 
-
-
 </html>
-
-
-
-
-
-
-
-
-
-
