@@ -1,0 +1,175 @@
+  
+ul.hr {
+      text-align: center;
+      background-color: rgb(204, 194, 194);
+      /* Обнуляем значение отступовS*/
+      padding: 4px;
+      /* Зн
+    
+    ачение полей */
+    }
+    
+    ul.hr li {
+      display: inline;
+      /* Отображать как строчный элемент */
+      margin-right: 0px;
+      /* Отступ слева */
+      padding: 3px;
+      /* Поля вокруг текста */
+    }
+    
+    .lk {
+      display: inline;
+      /* Отображать как строчный элемент */
+      width: 300px;
+      /* Ширина блока */
+      background: white;
+      /* Цвет фона */
+      padding: 5px;
+      /* Поля вокруг текста */
+    }
+    
+    ull.lk {
+      margin: 0;
+      /* Обнуляем значение отступов */
+      padding: 4px;
+      /* Значение полей */
+    }
+    
+    ull.lk li {
+      display: inline;
+      /* Отображать как строчный элемент */
+      margin-right: 5px;
+      /* Отступ слева */
+      padding: 3px;
+      /* Поля вокруг текста */
+      u.hrr {
+        margin: 0%;
+        /* Обнуляем значение отступов */
+        padding: 40%;
+        /* Значение полей */
+      }
+      u.hrr lii {
+        margin-right: 509%;
+        /* Отступ слева */
+        border: 1 solid #000;
+        /* Рамка вокруг текста */
+        padding: 3%;
+        /* Поля вокруг текста */
+      }
+      .hrrr {
+        text-align: center;
+        background-color: rgb(226, 220, 220);
+        /* Обнуляем значение отступовS*/
+        padding: 4px;
+        /* Зн
+    
+    ачение полей */
+      }
+    }
+
+
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    
+    @media (min-width: 500px) {
+      .container-1 {
+        display: flex;
+        align-items: stretch;
+        flex-direction: row;
+      }
+    }
+    
+    .container-2 {
+      outline: 2px solid #000;
+      display: flex;
+    }
+    
+    .container-1 div,
+    .container-2 div {
+      padding: 10px;
+      border: 1px solid rgb(255, 255, 255);
+      flex-wrap: wrap;
+
+    }
+    
+
+    .box-1 {
+      flex: 2;
+      order: 1;
+    }
+    
+    .box-2 {
+      flex: 2;
+      order: 12;
+      text-align: right;
+    }
+    
+    .box-3 {
+      flex: 1;
+      order: 3;
+      text-align: center;
+    }
+    
+
+    .box11 {
+      align-self: flex-start;
+      font-size: 20px;
+      min-width: 20%;
+      flex-wrap: wrap;
+
+
+    }
+    .box22 {
+      flex-grow:1;
+
+      align-self: center;
+      font-size: 20px;
+
+      flex-wrap: wrap;
+
+
+
+      max-width: 100%;
+
+  
+
+    }
+
+
+
+    .box66 {
+      align-self: flex-end;
+      font-size: 20px;
+      min-width:auto;
+      text-align: center;
+
+
+    }
+
+
+
+
+
+
+    .boxwhodrel {
+      min-width:auto;
+
+      display: flex;
+        align-items: stretch;
+        flex-direction: row;
+
+
+
+
+    }
+
+
+    .boxdrel {
+      flex: 2;
+      order: 1;
+      min-width:auto;
+
+    }
