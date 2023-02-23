@@ -30,12 +30,11 @@
     }
   }
   
+
   .container-2 {
     outline: 2px solid #000;
     display: flex;
-  }
-  
-  .container-2 {
+    
     justify-content: space-around;
     flex-wrap: wrap;
   }
@@ -48,16 +47,20 @@
   .box-1 {
     flex: 2;
     order: 1;
+
   }
   
   .box-2 {
     flex: 2;
     order: 12;
+    text-align: right;
   }
   
   .box-3 {
     flex: 1;
     order: 3;
+    text-align: center;
+
   }
   
   .box {
@@ -67,13 +70,17 @@
 
 
   ul.hr {
+    text-align: center;
+
   background-color: rgb(226, 220, 220);
-    margin: auto; /* Обнуляем значение отступовS*/
-    padding: 4px; /* Значение полей */
+     /* Обнуляем значение отступовS*/
+    padding: 4px; /* Зн
+    
+    ачение полей */
    }
    ul.hr li {
     display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
+    margin-right: 0px; /* Отступ слева */
     padding: 3px; /* Поля вокруг текста */
    }
 
@@ -81,7 +88,6 @@
    .lk { 
 		 
      display: inline; /* Отображать как строчный элемент */
-       position: absolute; /* Абсолютное позиционирование */
 
        width: 300px; /* Ширина блока */
        background: white; /* Цвет фона */
@@ -145,14 +151,18 @@
 
    
     </div>
+
+
     <div class="box-2">
    
       <ull class="lk">
+       
         <li><a href="#">Личный кабинет</a></li>
       |
         <li><a href="#">Выход</a></li>
         
      
+
      <br>Ваша корзина пуста</br>
      <br>
      <form action="" method="get">
@@ -164,7 +174,10 @@
 
 
 
+
       </div>
+
+
     <div class="box-3">
       <h3>Барнаул</h3>
       <p> +7(3999) 223-322
