@@ -8,93 +8,10 @@
   <title>Главная</title>
 
   <style>
-    * {
-      padding: 0;
-      margin: 0;
-    }
+
+
     
-    @media (min-width: 500px) {
-      .container-1 {
-        display: flex;
-        align-items: stretch;
-        flex-direction: row;
-      }
-    }
-    
-    .container-2 {
-      outline: 2px solid #000;
-      display: flex;
-      align-items: flex-start;
-
-
-    }
-    
-    .container-1 div,
-    .container-2 div {
-      padding: 10px;
-      border: 1px solid rgb(119, 112, 112);
-    }
-    
-
-
-
-    .box-1 {
-      flex: 2;
-      order: 1;
-    }
-    
-    .box-2 {
-      flex: 2;
-      order: 12;
-      text-align: right;
-    }
-    
-    .box-3 {
-      flex: 1;
-      order: 3;
-      text-align: center;
-    }
-    
-
-
-
-
-    .box11 {
-      align-self: stretch;
-font-size: 20px;
-    }
-
-
-    .box22 {
-      align-self: flex-start;
-min-width: 10vh;
-
-    }
-
-    .box33{
-      align-self: center;
-
-    }
-
-    .box44 {
-      align-self: flex-end;
-
-    }
-
-    .box55{
-      align-self: flex-end;
-
-    }
-
-    .box66 {
-      align-self: flex-end;
-
-    }
-
-
-
-
-    ul.hr {
+ul.hr {
       text-align: center;
       background-color: rgb(226, 220, 220);
       /* Обнуляем значение отступовS*/
@@ -138,51 +55,121 @@ min-width: 10vh;
       /* Отступ слева */
       padding: 3px;
       /* Поля вокруг текста */
-
-
-
-
-
       u.hrr {
-    margin: 0%; /* Обнуляем значение отступов */
-    padding: 40%; /* Значение полей */
+        margin: 0%;
+        /* Обнуляем значение отступов */
+        padding: 40%;
+        /* Значение полей */
+      }
+      u.hrr lii {
+        margin-right: 509%;
+        /* Отступ слева */
+        border: 1 solid #000;
+        /* Рамка вокруг текста */
+        padding: 3%;
+        /* Поля вокруг текста */
+      }
+      .hrrr {
+        text-align: center;
+        background-color: rgb(226, 220, 220);
+        /* Обнуляем значение отступовS*/
+        padding: 4px;
+        /* Зн
+    
+    ачение полей */
+      }
+    }
 
 
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    
+    @media (min-width: 500px) {
+      .container-1 {
+        display: flex;
+        align-items: stretch;
+        flex-direction: row;
+      }
+    }
+    
+    .container-2 {
+      outline: 2px solid #000;
+      display: flex;
+    }
+    
+    .container-1 div,
+    .container-2 div {
+      padding: 10px;
+      border: 1px solid rgb(119, 112, 112);
+    }
+    
 
+    .box-1 {
+      flex: 2;
+      order: 1;
+    }
+    
+    .box-2 {
+      flex: 2;
+      order: 12;
+      text-align: right;
+    }
+    
+    .box-3 {
+      flex: 1;
+      order: 3;
+      text-align: center;
+    }
+    
 
-   }
-   u.hrr lii {
-    margin-right: 509%; /* Отступ слева */
-    border: 1 solid #000; /* Рамка вокруг текста */
-    padding: 3%; /* Поля вокруг текста */
-   }
-
-   .hrrr {
-    margin: 0%; /* Обнуляем значение отступов */
-    padding: 40%; /* Значение полей */
-
-
-
-
-   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .box11 {
+      align-self: flex-start;
+      font-size: 20px;
+      min-width: 10vh;
 
     }
+    .box22 {
+      align-self: flex;
+      font-size: 20px;
+      min-width: 100%;
+
+    }
+
+
+
+    .box66 {
+      align-self: flex-end;
+      font-size: 20px;
+      min-width: 100vh;
+      text-align: center;
+
+    }
+
+
+
+
+
+
+    .boxwhodrel {
+      min-width: 100vh;
+
+      display: flex;
+        align-items: stretch;
+        flex-direction: row;
+    }
+
+
+    .boxdrel {
+      flex: 2;
+      order: 1;
+    }
+    
   </style>
 </head>
+
+
 
 <body>
   <ul class="hr">
@@ -237,16 +224,11 @@ min-width: 10vh;
   </div>
 </div>
 
-
-
 <div class="container-2">
-
-
-
 
   <div class="box11">
     <h3>Каталог</h3>
-      <u class="hrr">
+    <u class="hrr">
         <br> <a href="#">Аккумуляторный интрумент</a></br>
          <a href="#">Лазерные уровни, дальномеры</a>
         <br><a href="#">Сетевые дрели, шуруповерты,миксеры</a></br>
@@ -254,20 +236,390 @@ min-width: 10vh;
        
      
        </u>
-    
-    </div>
 
+  </div>
 
 
   <div class="box22">
-    <a href="#">Главная</a> >>
-    Аккумуляторные дрели и шуруповерты
-<p>  <b>  Аккумуляторные дрели и шуруповерты
+
+    <!--в боксе 22 другие боксы-->
+
+    <div class="box33">
+
+      <a href="#">Главная</a> >> Аккумуляторные дрели и шуруповерты
+      <p> <b>  Аккумуляторные дрели и шуруповерты
 </b>
-</p>
+      </p>
+
+
+
+      <div class="boxwhodrel">
+      <!--в боксе boxwhodrel другие боксы в которых дрель-->
+
+      <div class="boxdrel">
+
+          
+
+
+        <img src="images\drel-pre.jpg" align="left" alt="log drel">
+
+        <p> BS 12C2 Li-152BF 
+          <br>Li-Ion ;
+          12 В;
+          1,5 Ач;
+          <br>
+      0-350, 0-1500 об/мин;
+      34 Hм;
+      <br>
+          Вес нетто: 1,2 кг;
+          </br>
+
+
+
+        </br>
+
+
+
+
+        <a href="#" style="background-color:#e0de5b">Купить</a>
+1250 руб
+       </br>
+
+
+      </div>
+      <div class="boxdrel">
+
+          
+
+
+        <img src="images\drel-pre.jpg" align="left" alt="log drel">
+
+        <p> BS 12C2 Li-152BF 
+          <br>Li-Ion ;
+          12 В;
+          1,5 Ач;
+          <br>
+      0-350, 0-1500 об/мин;
+      34 Hм;
+      <br>
+          Вес нетто: 1,2 кг;
+          </br>
+
+
+
+        </br>
+
+
+
+
+        <a href="#" style="background-color:#e0de5b">Купить</a>
+1250 руб
+       </br>
+
+
+      </div>
+ 
+        <div class="boxdrel">
+
+          
+
+
+          <img src="images\drel-pre.jpg" align="left" alt="log drel">
+
+          <p> BS 12C2 Li-152BF 
+            <br>Li-Ion ;
+            12 В;
+            1,5 Ач;
+            <br>
+        0-350, 0-1500 об/мин;
+        34 Hм;
+        <br>
+            Вес нетто: 1,2 кг;
+            </br>
+
+
+
+          </br>
+
+
+
+
+          <a href="#" style="background-color:#e0de5b">Купить</a>
+1250 руб
+         </br>
+
+
+        </div>
+
+
+      </div>
+
+
+
+
+      <div class="boxwhodrel">
+        <!--в боксе boxwhodrel другие боксы в которых дрель-->
+        <div class="boxdrel">
+
+          
+
+
+          <img src="images\drel-pre.jpg" align="left" alt="log drel">
+
+          <p> BS 12C2 Li-152BF 
+            <br>Li-Ion ;
+            12 В;
+            1,5 Ач;
+            <br>
+        0-350, 0-1500 об/мин;
+        34 Hм;
+        <br>
+            Вес нетто: 1,2 кг;
+            </br>
+
+
+
+          </br>
+
+
+
+
+          <a href="#" style="background-color:#e0de5b">Купить</a>
+1250 руб
+         </br>
+
+
+        </div>
+
+
+        <div class="boxdrel">
+
+          
+
+
+          <img src="images\drel-pre.jpg" align="left" alt="log drel">
+
+          <p> BS 12C2 Li-152BF 
+            <br>Li-Ion ;
+            12 В;
+            1,5 Ач;
+            <br>
+        0-350, 0-1500 об/мин;
+        34 Hм;
+        <br>
+            Вес нетто: 1,2 кг;
+            </br>
+
+
+
+          </br>
+
+
+
+
+          <a href="#" style="background-color:#e0de5b">Купить</a>
+1250 руб
+         </br>
+
+
+        </div>
+
+        <div class="boxdrel">
+
+          
+
+
+          <img src="images\drel-pre.jpg" align="left" alt="log drel">
+
+          <p> BS 12C2 Li-152BF 
+            <br>Li-Ion ;
+            12 В;
+            1,5 Ач;
+            <br>
+        0-350, 0-1500 об/мин;
+        34 Hм;
+        <br>
+            Вес нетто: 1,2 кг;
+            </br>
+
+
+
+          </br>
+
+
+
+
+          <a href="#" style="background-color:#e0de5b">Купить</a>
+1250 руб
+         </br>
+
+
+        </div>
+          
+      
+    </div>
+
+    <div class="boxwhodrel">
+      <!--в боксе boxwhodrel другие боксы в которых дрель-->
+
+
+      <div class="boxdrel">
+
+          
+
+
+        <img src="images\drel-pre.jpg" align="left" alt="log drel">
+
+        <p> BS 12C2 Li-152BF 
+          <br>Li-Ion ;
+          12 В;
+          1,5 Ач;
+          <br>
+      0-350, 0-1500 об/мин;
+      34 Hм;
+      <br>
+          Вес нетто: 1,2 кг;
+          </br>
+
+
+
+        </br>
+
+
+
+
+        <a href="#" style="background-color:#e0de5b">Купить</a>
+1250 руб
+       </br>
+
+
+      </div>
+        <div class="boxdrel">
+
+          
+
+
+          <img src="images\drel-pre.jpg" align="left" alt="log drel">
+
+          <p> BS 12C2 Li-152BF 
+            <br>Li-Ion ;
+            12 В;
+            1,5 Ач;
+            <br>
+        0-350, 0-1500 об/мин;
+        34 Hм;
+        <br>
+            Вес нетто: 1,2 кг;
+            </br>
+
+
+
+          </br>
+
+
+
+
+          <a href="#" style="background-color:#e0de5b">Купить</a>
+1250 руб
+         </br>
+
+
+        </div>
+
+        <div class="boxdrel">
+
+          
+
+
+          <img src="images\drel-pre.jpg" align="left" alt="log drel">
+
+          <p> BS 12C2 Li-152BF 
+            <br>Li-Ion ;
+            12 В;
+            1,5 Ач;
+            <br>
+        0-350, 0-1500 об/мин;
+        34 Hм;
+        <br>
+            Вес нетто: 1,2 кг;
+            </br>
+
+
+
+          </br>
+
+
+
+
+          <a href="#" style="background-color:#e0de5b">Купить</a>
+1250 руб
+         </br>
+
+      
+      
+
+         
+
+        </div>
+
+
+
 
   </div>
+
+    </div>
+
+    <div class="box66">
+    
   
+      <ul class="hrrr">
+       Cтраницы  
+ 
+       <a href="#">1</a>
+       <a href="#">2</a>
+       <a href="#">3</a>
+       <a href="#">4</a>
+       <a href="#">Все</a>
+     </ul>
+ 
+     </div>
+
+
+
+  </div>
+
+
+
+
+
+
+</div>
+  <br>
+  <img style="padding: 10px;" src="images\visa_logo_40x13.png" align="left" alt="logovisa">
+
+  <img style="padding: 5px;" src="images\mastercard_logo_40x24.png" align="left" alt="log master">
+
+  </br>
+</div>
+
+<!--
+
+
+    .container-2 {
+      outline: 2px solid #000;
+      display: flex;
+  
+      flex-wrap: wrap;
+flex-direction: row;
+
+
+align-items: stretch;
+        flex-direction: row;
+
+    }
+    
+
+
   <div class="box33">
     <h3>Box 3</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
@@ -286,30 +638,24 @@ min-width: 10vh;
 
 
 
-  <div class="box66">
+ 
+
+
+
+
+
+ <div class="box66">
     
   
-     Cтраницы  
-     <ul class="hr">
-      <li><a href="#">1</a></li>
-      <li><a href="#">2</a></li>
-      <li><a href="#">3</a></li>
-      <li><a href="#">4</a></li>
-      <li><a href="#">Все</a></li>
+     <ul class="hrrr">
+      Cтраницы  
+
+      <a href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">Все</a>
     </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     </div>
 
@@ -320,21 +666,6 @@ min-width: 10vh;
 
 
 
-
-
-</div>
-<br>
-<img style="padding: 10px;" src="images\visa_logo_40x13.png" align="left" alt="logovisa">
-  
-<img style="padding: 5px;" src="images\mastercard_logo_40x24.png" align="left" alt="log master">
-
-
-</br>
-</div>
-
-
-
-<!--
   <style>
   ul.hr {
   background-color: rgb(226, 220, 220);
